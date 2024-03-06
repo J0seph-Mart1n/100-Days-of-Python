@@ -2,8 +2,8 @@ import requests
 from twilio.rest import Client
 
 API_KEY = "api_key"
-MY_LAT = 29.916654
-MY_LONG = -90.038116
+MY_LAT = "latitude"
+MY_LONG = "longitude"
 account_sid = 'account_sid'
 auth_token = 'auth_token'
 
@@ -30,6 +30,6 @@ if will_rain:
         .create(
         body="It is going to rain today. Do bring your Umbrella",
         from_='+16562184044',
-        to='+919172232178'
+        to='your_num'
     )
     print(message.status)
