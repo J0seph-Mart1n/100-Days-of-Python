@@ -1,0 +1,44 @@
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+}
+
+#orange{
+    color:orange;
+}
+
+#green{
+    color:green;
+}
+
+#yellow{
+    color:yellow;
+}
+
+img[alt="red"]{
+    width: 200px;
+    height: 200px;
+}
+
+img[alt="blue"]{
+    width: 200px;
+    height: 200px;
+}
+
+img[alt="orange"]{
+    width: 200px;
+    height: 200px;
+}
+
+img[alt="green"]{
+    width: 200px;
+    height: 200px;
+}
+
+img[alt="yellow"]{
+    width: 200px;
+    height: 200px;
+}
